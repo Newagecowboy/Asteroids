@@ -1,1 +1,1 @@
-# My Project
+# Asteroids game made using Python 
