@@ -7,9 +7,9 @@ class Player(CircleShape):
         super().__init__(x, y, PLAYER_RADIUS)
         self.rotation = 0  # Player's facing angle (degrees)
         self.speed = 200  # Pixels per second
-        self.thrust = False  # For
+        self.thrust = False 
 
-    # in the player class
+    
     def triangle(self):
         forward = pygame.Vector2(0, 1).rotate(self.rotation)
         right = pygame.Vector2(0, 1).rotate(self.rotation + 90) * self.radius / 1.5
